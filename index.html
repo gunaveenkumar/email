@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="stylesheet" href="/email/style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+        <h3>coming soon</h3>
+        <p>our brand new bike is on the way</p>
+        <h5>Subscribe For More Details</h5>
+    
+        <form >
+            <input type="email" name="mail"> 
+            <button  type="submit" id="but"><img src="/email/image/send-icon.png" ></button>
+        </form>
+            <span id="call"> thanks for Subscribe</span>
+        
+    </div>
+    <script>
+        var call=document.getElementById("call")
+        var button=document.getElementById("but")
+      button .onclick= function time()
+      {
+        call.style.display="block"; 
+      }
+      setInterval("time()",15000);
+
+    </script>
+
+    
+</body>
+</html>
